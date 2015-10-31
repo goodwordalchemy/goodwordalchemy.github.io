@@ -1,12 +1,4 @@
-title: Hello Jessie!
-date: 2013-07-14 12:00:00
+title: Cool Resources This Week 
+date: 2015-10-31 12:00:00
 
-Squandleabunga Squeet Little horse stain!!
-
-[big big squueet](http://beautyliestruth.com/)
-
-```
-console.log("Jesus and joheslaks")
-```
-
-##Really big header!!!
+* [Ryans Tutorials](http://ryanstutorials.net/bash-scripting-tutorial/) has resources for linux and bash scripting, html, regular expressions, programming challenges, html, css ect. and they are all pretty good too!
