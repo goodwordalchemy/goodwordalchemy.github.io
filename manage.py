@@ -7,7 +7,7 @@ manager = Manager(app)
 
 @manager.command
 def freeze():
-    freezer.run(debug=True)
+    # freezer.run(debug=True)
     freezer.freeze()
 
 if __name__ == '__main__':

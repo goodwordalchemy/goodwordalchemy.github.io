@@ -1,10 +1,12 @@
 from flask import Flask
-from flask_flatpages import FlatPages
-from flask_frozen import Freezer
+from flask.ext.flatpages import FlatPages
+from flask.ext.frozen import Freezer
+from flask.ext.bootstrap import Bootstrap
 from config import config
 
 pages = FlatPages()
 freezer = Freezer()
+bootstrap = Bootstrap()
 
 def create_app(config_name):
     app = Flask(__name__)
@@ -12,6 +14,7 @@ def create_app(config_name):
 
     freezer.init_app(app)
     pages.init_app(app)
+    bootstrap.init_app(app)
 
     #register blueprints:
     from .main import main as main_blueprint
