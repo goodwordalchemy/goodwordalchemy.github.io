@@ -1,0 +1,13 @@
+title: choosing the right machine learning classifier
+date: 2015-11-02 08:56:47
+
+I'm at a point now where I now know how to use quite a few classifiers, and I have some idea how they work.  But which one is the best to use? I don't know the answer yet, but I'm goint to take notes here and do a little bit of research untill I have a better idea.  Then I'm going to put that classifier choosing method to work on a handful of datasets.
+
+* The first stop was [this Cross Validated Post](http://stats.stackexchange.com/questions/7610/top-five-classifiers-to-try-first) which asks this very question.  The best answers are:
+    * Random Forest - because it is fast, robust, has good accuracy is easy to tune.  I think that makes a lot of sense.  I didn't totally understand the drawbacks though.  It says slower than kNN or NB, may not work so well with imbalanced classes, doesn't work when "kernal trick is needed (I forget what the kernal trick is...), and is a black box.
+        * **Note** I found just found [this awesome article](http://www.eric-kim.net/eric-kim-net/posts/1/kernel_trick.html) about the kernel trick.  Basically, sometimes you have data (e.g. concentric circles) that are not linearly separable, but if you project them into a higher dimension, they become linearly separable.  Imagine that the original 2D dataset is merely a version of the true dataset, which is actually R^3 dimensional.  What's really bomb about this process though, is that this higher dimensional abstraction can be done implicitly with "kernel functions".  That's the "trick" part. High dimensional dot products for every combination of features can be caluculated using these kernel functions. 
+* Edwin Chen's [blog post](http://blog.echen.me/2011/04/27/choosing-a-machine-learning-classifier/) had a lot of awesome information.
+    * naive bayes - high variance low bias, so good when you don't have much data.  Usually works in practice even when NB assumption doesn't hold.  Main disadvantage is it can't learn interactions between features
+    * Logistic Regression - gives probablistic interpretation.  Dont' have to worry as much about features being correlated.  Can easily update your model with new data.
+    * Decision Trees - Easy to interpet and explain.  Easily handle feature interaction.  Don't have to worrry about outliers or data being linearly separable.  Don't support online learning though, so you have to rebuild tree when new examples arrive.  Prone to overfitting, but that's where random forests and boosted trees come in.
+    * SVMs - High accuracy, theoretical guarantees against overfitting, work when data isn't linearly separable in base feature space.
