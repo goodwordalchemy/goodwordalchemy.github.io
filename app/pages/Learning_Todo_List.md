@@ -1,9 +1,9 @@
-title: Learning Todo List
+title: Todo List and Reviews for Programming and Data Science Courses and Books
 date: 2016-03-12 16:30:16
 
 I figure, in lieu of a transcript for all of my independent computer science and data science studies, I would keep a running wish list and list of reviews for books/courses that I would like to read and have already read.  
 
-# These Are the Books / Courses I would like to take
+##  Books/Courses I would like to complete
 
 * [Structure and Interpretation of Computer Programs - Abelson, Sussman, and Sussman](https://mitpress.mit.edu/sicp/full-text/book/book.html) - I'm still not sure why I'm reading this book, and I'm on page 87 of about 800, but I'm told it's the best computer science book ever written.  The first hundred pages were pretty basic, though I did learn the difference between recursion and iteration, and now I'm starting to get into functional programming, which should be pretty cool.
 
@@ -13,14 +13,14 @@ I figure, in lieu of a transcript for all of my independent computer science and
 
 * [Natural Language Processing with Python - Bird, Klein, & Loper](http://shop.oreilly.com/product/9780596516499.do) - Seems like an important thing for any aspiring data scientist to know about and practice.
 
-[Mathematics for Computer Science - MIT OCW](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/index.htm) - Mostly to learn about proofs and some basic graph and probability stuff.
+* [Mathematics for Computer Science - MIT OCW](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/index.htm) - Mostly to learn about proofs and some basic graph and probability stuff.
 
 * [Introduction To Algorithms; A Creative Approach - Udi Manber](http://www.amazon.com/Introduction-Algorithms-A-Creative-Approach/dp/0201120372) - Maybe I should read a more traditional algorithms book, but the reviews of this book on amazon suggest that this book is great for teaching you how to "think" in algorithms, rather than just memorize them.
 
 
 
 
-# These Are the Books / Courses / Units of Study that I have completed
+## Books/Courses/Units of Study that I have completed
 
 * Arduino Projects.  I've done a handful of these over the past few years, but mostly learned from online tutorials and short, basically crappy books.  This is how I first got interested in programming and where I first learned the basics, so I have to include this paragraph here.
 
