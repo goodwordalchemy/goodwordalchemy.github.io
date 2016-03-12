@@ -3,7 +3,7 @@ date: 2016-03-12 16:30:16
 
 I figure, in lieu of a transcript for all of my independent computer science and data science studies, I would keep a running wish list and list of reviews for books/courses that I would like to read and have already read.  
 
-##  Books/Courses I would like to complete
+## Books/Courses I would like to complete
 
 * [Structure and Interpretation of Computer Programs - Abelson, Sussman, and Sussman](https://mitpress.mit.edu/sicp/full-text/book/book.html) - I'm still not sure why I'm reading this book, and I'm on page 87 of about 800, but I'm told it's the best computer science book ever written.  The first hundred pages were pretty basic, though I did learn the difference between recursion and iteration, and now I'm starting to get into functional programming, which should be pretty cool.
 
